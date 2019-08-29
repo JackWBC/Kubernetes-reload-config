@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.baicheng</groupId>
-	<artifactId>Kubernetes-reload-config</artifactId>
+	<artifactId>kubernetes-reload-config</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Kubernetes-reload-config</name>
+	<name>kubernetes-reload-config</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -69,7 +69,7 @@
 	</dependencyManagement>
 
 	<build>
-		<finalName>Kubernetes-reload-config</finalName>
+		<finalName>kubernetes-reload-config</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
