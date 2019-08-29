@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.baicheng</groupId>
 	<artifactId>kubernetes-reload-config</artifactId>
-	<version>0.0.2-SNAPSHOT</version>
+	<version>0.0.3-SNAPSHOT</version>
 	<name>kubernetes-reload-config</name>
 	<description>Demo project for Spring Boot</description>
 
