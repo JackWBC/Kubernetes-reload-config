@@ -6,9 +6,18 @@ spring:
       reload:
         enabled: true
         mode: polling
-        period: 5000ms
+        period: 5000
       config:
         sources:
           - name: ${spring.application.name}
 server:
   port: 8080
+
+management:
+  endpoint:
+    restart:
+      enabled: true
+    health:
+      enabled: true
+    info:
+      enabled: true
