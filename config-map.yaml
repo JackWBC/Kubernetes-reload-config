@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: kubernetes-reload-config
+data:
+  application.yaml: |-
+    bean.message=Hello World!

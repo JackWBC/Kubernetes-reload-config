@@ -1,5 +1,14 @@
 spring:
   application:
     name: kubernetes-reload-config
+  cloud:
+    kubernetes:
+      reload:
+        enabled: true
+        mode: polling
+        period: 5000ms
+      config:
+        sources:
+          - name: ${spring.application.name}
 server:
   port: 8080
