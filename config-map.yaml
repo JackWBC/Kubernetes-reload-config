@@ -4,4 +4,5 @@ metadata:
   name: kubernetes-reload-config
 data:
   application.yaml: |-
-    bean.message=Hello World!
+    bean:
+      message: Hello baicheng!
