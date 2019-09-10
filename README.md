@@ -92,13 +92,13 @@ spec:
     metadata:
       labels:
         app: deployment-name
-	   spec:
-		  containers:
-		  - name: container-name
-		    image: your-image
-		    env:
-		    - name: SPRING_PROFILES_ACTIVE
-			     value: "development"
+	  spec:
+	    containers:
+	      - name: container-name
+	        image: your-image
+	        env:
+	          - name: SPRING_PROFILES_ACTIVE
+	            value: "development"
 ```
 #### 可以将ConfigMap挂载到 Spring Cloud Kubernetes 应用所在的Pod
 Spring Cloud Kubernetes可以通过读取文件系统来获取ConfigMap配置  
